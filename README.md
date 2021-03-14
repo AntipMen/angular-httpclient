@@ -1,27 +1,19 @@
 # AngularHttpclient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+Practical work with the server using the HttpClient package in Angular (get, post, put requests).
 
-## Development server
+Working with asynchronous requests with RxJS.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project logic is divided into a server - where work with data 
+and a component - where we interact using methods with the server and html.
 
-## Code scaffolding
+Also, error handling is implemented throught of the HttpClient.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Practice of modifying requests using headers, params and observe with HttpClient
+and also modifying requests and processing responses using an HttpInterceptor package.
 
-## Build
+![http2](https://user-images.githubusercontent.com/58369971/111069021-c4d21400-84d3-11eb-8656-e597dbb512a4.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+We can add new todo, delete todo and mark todo as completed.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![http1](https://user-images.githubusercontent.com/58369971/111069018-c4397d80-84d3-11eb-99ce-b390cb1f386f.png)
